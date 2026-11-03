@@ -109,7 +109,14 @@ Personas implicadas en el proyecto:
 **1.2.** El fichero `RESERVAS` repite en cada registro el nombre del socio, el día, la hora y el monitor de cada clase.
 
 - **a)** Explica qué consecuencias tiene esta organización cuando, por ejemplo, Andrés Vela deja de impartir Spinning.
+
+    
 - **b)** Propón una **reorganización en varios ficheros** que elimine las repeticiones, indicando los campos de cada uno y el **campo clave**.
+     + `Socios`: cod_socio, DNI, nombre, apellido, dirección
+     telefeono, cod_postal, iban, tarifa 
+     +  `Monitores`: cod_monitor,nombre, apellido.
+     + `Clases`: cod_clase, nombre, dia, hora, cod_monitor, aforo
+     + `Reservas`: cod_socio, cod_clase
 - **c)** Define el **formato de registro** del nuevo fichero `SOCIOS` (campo, nombre, tipo y longitud) e indica su campo clave. Justifica por qué no has elegido `NOMBRE` como clave.
 
 ---
@@ -121,6 +128,8 @@ Personas implicadas en el proyecto:
 **2.2.** La gerente se pregunta si el cambio "merece la pena". Analiza qué **inconvenientes** tendrá la implantación de un SGBD **para esta empresa en concreto** y emite una recomendación razonada.
 
 **2.3.** Un monitor que trabaja como entrenador personal por su cuenta, con 12 clientes, guarda en un fichero de texto la fecha y el tipo de sesión de cada cliente. ¿Le recomendarías un SGBD? Justifica tu respuesta comparándola con la de Centros Deportivos Atlántico.
+
+- No el volumen de clientes no es necesario. 
 
 ---
 
