@@ -104,7 +104,7 @@ Personas implicadas en el proyecto:
 |I4|Seguridad &rarr; Acceso no controlado| Como no tenemos un control de accceso cuando se consula algo puede ver los datos privados.|
 |i5| Integridad  &rarr; Restricciones dificil de aplicar|  Existe una reserva de un socio que no esta en el fichero de socios ya que no se ha guardado.|
 |i6| Dependencia &rarr; Los cambios fisicos afectan a los programas| Al modificar la estructura de un archivo el programa dejo de ejecutar bien el programa y dejo de mostrar otros ficheros.|
-|i7|integridad &rarr; Restricción dificil de aplicar| Los socios tienen la misma tarifa pero pagan distinto precio debido a un error de sistema.|
+|i7|Redundacia &rarr; Restricción dificil de aplicar| Los socios tienen la misma tarifa pero pagan distinto precio debido a un error de sistema.|
 
 **1.2.** El fichero `RESERVAS` repite en cada registro el nombre del socio, el día, la hora y el monitor de cada clase.
 
