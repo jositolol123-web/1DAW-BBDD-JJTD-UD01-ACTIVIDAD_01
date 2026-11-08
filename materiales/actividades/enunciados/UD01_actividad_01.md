@@ -131,8 +131,18 @@ Personas implicadas en el proyecto:
 ### Actividad 2. Utilidad de un Sistema Gestor de Bases de Datos · RA1.d 
 
 **2.1.** Explica cómo resolvería un SGBD **cada una de las incidencias** de la actividad 1. Relaciona cada solución con la **ventaja concreta** del SGBD que la hace posible.
+| Incidencia | Como resolveria un SGBD cada una de las incidendias | Ventaja concreta |
+|---|---|---|
+|I1|Al utilizar un SGBD hace que dicho cambio al solo tener un sitio donde cambiarlo evita discrepancia en los datos, a la hora de cambiar un determinado registro| menor redundancia|
+|I2|Al utilizar un SGBD este problema no lo tendria ya que no tendria que esperar a reserva y guardar dicha plaza, ya que discho sistema tiene un control de concurrencia y pueden entras varios usuarios a la vez|Compartición de datos|
+|I3|Al utilizar un SGBD con una simple consulta de SQL puede obtener esa información sin necesidad de hacer un programa, ahorrando tiempo y dinero para la empresa| Menor redundacia|
+|I4|Con un SGBD no tienen libre acceso si no que se restringe segun usuario facilitanddo asi la seguridad de datos personales|Mayor seguridad|
+|I5| Un SGBD evita este tipo de porblemas poniendo campos obligatorios para que no se den fallos de este estilo|Mayor integridad|
+|I6|Al utilizar un SGBD nunca abria problemas al cambiar un campo y que el porgrama dejara de funcionar porqeu tienen independencia de datos, dicho de otra manera, da igual si cambias un dato auqneu sea erroneo dicho programa seguira funcionando| Independecia de datos|
+|I7|Con un SGBD el precio de la tarifa Básica se almacenaría de forma consistente, evitando que aparezcan importes diferentes para la misma tarifa|Mayor integridad|
 
 **2.2.** La gerente se pregunta si el cambio "merece la pena". Analiza qué **inconvenientes** tendrá la implantación de un SGBD **para esta empresa en concreto** y emite una recomendación razonada.
+- Los principales inconvenientes son el coste de implantación, la migración de los datos y la formación de los trabajadores. También será necesario mantener el sistema. Aun así, la implantación es recomendable porque solucionará muchos problemas de gestión de datos, evitará errores y permitirá obtener información de forma más rápida y fiable
 
 **2.3.** Un monitor que trabaja como entrenador personal por su cuenta, con 12 clientes, guarda en un fichero de texto la fecha y el tipo de sesión de cada cliente. ¿Le recomendarías un SGBD? Justifica tu respuesta comparándola con la de Centros Deportivos Atlántico.
 
