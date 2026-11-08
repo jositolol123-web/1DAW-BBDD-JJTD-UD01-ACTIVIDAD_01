@@ -109,6 +109,7 @@ Personas implicadas en el proyecto:
 **1.2.** El fichero `RESERVAS` repite en cada registro el nombre del socio, el día, la hora y el monitor de cada clase.
 
 - **a)** Explica qué consecuencias tiene esta organización cuando, por ejemplo, Andrés Vela deja de impartir Spinning.
+     + Esta organización provoca redundancia de datos. Si Andrés Vela deja de impartir Spinning, habría que modificar todos los registros donde aparece. Esto puede generar errores e inconsistencias si algún dato se queda sin actualizar.
 
     
 - **b)** Propón una **reorganización en varios ficheros** que elimine las repeticiones, indicando los campos de cada uno y el **campo clave**.
@@ -118,6 +119,12 @@ Personas implicadas en el proyecto:
      + `Clases`: cod_clase, nombre, dia, hora, cod_monitor, aforo
      + `Reservas`: cod_socio, cod_clase
 - **c)** Define el **formato de registro** del nuevo fichero `SOCIOS` (campo, nombre, tipo y longitud) e indica su campo clave. Justifica por qué no has elegido `NOMBRE` como clave.
+
+|*cod_socio|DNI|nombre|apellido|dirección|teléfono|cod_postal|Iban|tarifa|
+|---------|---|------|--------|---------|--------|----------|----|------|
+| A-0001 | 31234567A | Lucía | Ramos Gil | C/ Sopranis, 12 | 600111222 | 11005 | ES12 **** 3456 | 45 € |
+| A-0002 | 44556677B | Pedro | Díaz Mora | Av. Andalucía, 3 | 600333444 | 11008 | ES98 **** 1122 | 30€ |
+| A-0003 | 77889900C | Ana | Torres Vela | C/ Ancha, 7 | 600555666 | 11001 | ES45 **** 7788 | 32 € |
 
 ---
 
